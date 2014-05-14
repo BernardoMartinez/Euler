@@ -1,0 +1,15 @@
+
+//Euler problem1
+//Sum of multiples 3,5 inside a 1000
+//author: Bernardo Martinez
+ var i; 
+ var sum=0;
+ var sys = require("sys"); 
+    for(i=0;i<1000;i++)
+    {
+        if((i%5==0)||(i%3==0))
+        {
+            sum=sum+i;
+        }
+    }
+    sys.puts("%d\n",sum);
